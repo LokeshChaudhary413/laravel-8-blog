@@ -53,3 +53,10 @@
 </div>
 
 @endsection
+
+@section('scripts')
+<script>
+    CKEDITOR.replace('short_desc');
+    CKEDITOR.replace('long_desc');
+</script>
+@endsection
